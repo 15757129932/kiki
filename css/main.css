@@ -44,7 +44,11 @@ h4{
 }
 
 a {
+<<<<<<< HEAD
   color: #c52d2f;
+=======
+  color: #b7d22d;
+>>>>>>> zhongqian
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -63,7 +67,11 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -73,7 +81,11 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   outline: none;
   box-shadow: none;
 } 
@@ -224,7 +236,11 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -289,7 +305,11 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
+<<<<<<< HEAD
 	background-color: #c52d2f;
+=======
+	background-color: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -309,7 +329,11 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
+<<<<<<< HEAD
   background-color: #c52d2f;
+=======
+  background-color: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -339,7 +363,11 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+<<<<<<< HEAD
   background-color: #c52d2f;
+=======
+  background-color: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -386,7 +414,11 @@ input.search-form:hover {
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -434,7 +466,11 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
+<<<<<<< HEAD
   background-color: #c52d2f;
+=======
+  background-color: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -483,9 +519,15 @@ input.search-form:hover {
 #main-slider .carousel-indicators .active{
   width: 20px;
   height: 20px;
+<<<<<<< HEAD
   background-color: #c52d2f;
    margin: 0 15px 0 0;
    border: 1px solid #c52d2f;
+=======
+  background-color: #b7d22d;
+   margin: 0 15px 0 0;
+   border: 1px solid #b7d22d;
+>>>>>>> zhongqian
    position: relative;
 }
 
@@ -495,8 +537,13 @@ input.search-form:hover {
   width: 24px;
   height: 24px;
   border-radius: 100%;
+<<<<<<< HEAD
   background: #c52d2f;
   border: 1px solid #c52d2f;
+=======
+  background: #b7d22d;
+  border: 1px solid #b7d22d;
+>>>>>>> zhongqian
   left: -3px;
   top: -3px;
 }
@@ -564,7 +611,11 @@ input.search-form:hover {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
+<<<<<<< HEAD
   color: #c52d2f;
+=======
+  color: #b7d22d;
+>>>>>>> zhongqian
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -577,11 +628,19 @@ input.search-form:hover {
 }
 
 .feature-wrap i:hover {
+<<<<<<< HEAD
   background: #c52d2f;
   color: #fff;
   box-shadow: inset 0 0 0 5px #c52d2f;
   -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
   border: 3px solid #c52d2f;
+=======
+  background: #b7d22d;
+  color: #fff;
+  box-shadow: inset 0 0 0 5px #b7d22d;
+  -webkit-box-shadow: inset 0 0 0 5px #b7d22d;
+  border: 3px solid #b7d22d;
+>>>>>>> zhongqian
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
@@ -626,7 +685,11 @@ input.search-form:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -838,12 +901,20 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -1446,7 +1517,11 @@ ul.social_icons li  a i{
 }
 
 .request h4 a{
+<<<<<<< HEAD
   background:#c52d2f;
+=======
+  background:#b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   font-size: 14px;
   font-weight: normal;
@@ -1455,7 +1530,11 @@ ul.social_icons li  a i{
 }
 
 .request h4:after {
+<<<<<<< HEAD
   border-color: #c52d2f transparent transparent;
+=======
+  border-color: #b7d22d transparent transparent;
+>>>>>>> zhongqian
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1467,7 +1546,11 @@ ul.social_icons li  a i{
 }
 
 .request h4:before {
+<<<<<<< HEAD
   border-color: #c52d2f transparent transparent;
+=======
+  border-color: #b7d22d transparent transparent;
+>>>>>>> zhongqian
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1520,7 +1603,11 @@ ul.social_icons li  a i{
 
 .footer {
   background: none repeat scroll 0 0 #2E2E2E;
+<<<<<<< HEAD
   border-top: 5px solid #C52D2F;
+=======
+  border-top: 5px solid #b7d22d;
+>>>>>>> zhongqian
   height: 84px;
   margin-top: 110px;
 }
@@ -1573,8 +1660,13 @@ ul.social_icons li  a i{
 .portfolio-filter > li a:hover,
 .portfolio-filter > li a.active{
   color:#fff;
+<<<<<<< HEAD
   background: #c52d2f;
   border: 1px solid #c52d2f;
+=======
+  background: #b7d22d;
+  border: 1px solid #b7d22d;
+>>>>>>> zhongqian
   box-shadow: none;
   -webkit-box-shadow: none;
 }
@@ -2002,12 +2094,20 @@ textarea#message{
 }
 
 .blog_category li a:hover{
+<<<<<<< HEAD
   background:#c52d2f;
+=======
+  background:#b7d22d;
+>>>>>>> zhongqian
   color: #fff;
 }
 
  .badge:before {
+<<<<<<< HEAD
   border-color: transparent transparent transparent #c52d2f;
+=======
+  border-color: transparent transparent transparent #b7d22d;
+>>>>>>> zhongqian
   border-style: solid;
   border-width: 10px;
   bottom: -8px;
@@ -2019,7 +2119,11 @@ textarea#message{
 }
 
 .badge {
+<<<<<<< HEAD
   background-color: #c52d2f;
+=======
+  background-color: #b7d22d;
+>>>>>>> zhongqian
   border-radius: 5px;
   color: #fff;
   padding: 8px;
@@ -2163,7 +2267,11 @@ ul.faq li > div h3 {
 }
 
 #publish_date {
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   border-bottom: 5px solid #4e4e4e;
   color: #fff;
   padding: 5px 0;
@@ -2196,8 +2304,13 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
+<<<<<<< HEAD
   background-color: #c52d2f !important;
   border-color: #c52d2f !important;
+=======
+  background-color: #b7d22d !important;
+  border-color: #b7d22d !important;
+>>>>>>> zhongqian
   color: #fff;
 }
 
@@ -2238,7 +2351,11 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li a:hover{
+<<<<<<< HEAD
   background:#c52d2f;
+=======
+  background:#b7d22d;
+>>>>>>> zhongqian
   color: #fff;  
 }
 
@@ -2377,7 +2494,11 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments h1 a:hover{
+<<<<<<< HEAD
   color:#c52d2f;
+=======
+  color:#b7d22d;
+>>>>>>> zhongqian
 }
 
 .post_reply_comments h4{
@@ -2393,14 +2514,22 @@ ul.sidebar-gallery {
   bottom: 15px;
   position: absolute;
   right: 30px;
+<<<<<<< HEAD
   background: #c52d2f;
+=======
+  background: #b7d22d;
+>>>>>>> zhongqian
   color: #fff;
   border-radius: 5px;
   padding: 8px 20px;
 }
 
 .post_reply_comments a:before {
+<<<<<<< HEAD
   border-color: #c52d2f transparent transparent;
+=======
+  border-color: #b7d22d transparent transparent;
+>>>>>>> zhongqian
   border-style: solid;
   border-width: 16px;
   bottom: -11px;
@@ -2464,7 +2593,11 @@ shortcodes page css
 ************************/
 #bottom {
   background: #f5f5f5;
+<<<<<<< HEAD
   border-bottom: 5px solid #c52d2f;
+=======
+  border-bottom: 5px solid #b7d22d;
+>>>>>>> zhongqian
   font-size: 14px;
 }
 
@@ -2492,7 +2625,11 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
+<<<<<<< HEAD
   color: #c52d2f;
+=======
+  color: #b7d22d;
+>>>>>>> zhongqian
 }
 
 #bottom .widget {
@@ -2511,7 +2648,11 @@ shortcodes page css
 }
 
 #footer a:hover {
+<<<<<<< HEAD
   color: #c52d2f;
+=======
+  color: #b7d22d;
+>>>>>>> zhongqian
 }
 
 #footer ul {
