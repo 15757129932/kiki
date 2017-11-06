@@ -181,7 +181,9 @@ body > section {
 .navbar>.container .navbar-brand{
   margin-left: 0;
 }
-
+.navbar>.container .navbar-brand img{
+  width: 110px;
+}
 .top-bar {
   padding: 10px 0;
   background: #191919;
@@ -1887,13 +1889,17 @@ ul.social_icons li  a i{
 /*************************
 ********* Contact Us CSS ******
 **************************/
-
+#contact-info{
+  padding: 0;
+}
 .gmap-area {
   background-image: url("../images/map.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 0;
+  height: 600px;
+  margin-bottom: 20px;
 }
 
 .gmap-area .gmap iframe {
