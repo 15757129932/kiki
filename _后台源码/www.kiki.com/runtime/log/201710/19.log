@@ -1,0 +1,1786 @@
+[ 2017-10-19T21:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.city119.com/ [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：3,184.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ log ] www.city119.com/admin/login/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：3,436.11kb] [文件加载：52]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\login\index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha
+[ log ] www.city119.com/captcha [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,499.69kb] [文件加载：36]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.city119.com/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Software_Files\website\www.city119.com\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:51+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/doLogin
+[ log ] www.city119.com/admin/login/doLogin [运行时间：1.644094s][吞吐率：0.61req/s] [内存消耗：5,189.69kb] [文件加载：65]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.city119.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.city119.com/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13800000000',
+  'password' => '123456',
+  'captcha' => '7623',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\Software_Files\website\www.city119.com\app\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.192068s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.116006s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `mobile` = '13800000000' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_record` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] INSERT INTO `log_record` (`remark` , `ip` , `user_id` , `browser` , `os` , `create_time`) VALUES ('登录成功' , '127.0.0.1' , 1 , 'chrome-61' , 'Windows 7' , 1508418530) [ RunTime:0.080005s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:51+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha?=r0.1447999503234867?=r0.8936249040991433
+[ log ] www.city119.com/captcha?=r0.1447999503234867?=r0.8936249040991433 [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：3,121.65kb] [文件加载：41]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.city119.com/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Software_Files\website\www.city119.com\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ log ] www.city119.com/admin/index/index [运行时间：1.275073s][吞吐率：0.78req/s] [内存消耗：5,495.68kb] [文件加载：68]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.city119.com/admin/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.099006s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_record` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `log_record` [ RunTime:0.055004s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.181067s][吞吐率：0.85req/s] [内存消耗：5,425.74kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.city119.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.064003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.055004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.220070s][吞吐率：0.82req/s] [内存消耗：5,180.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.063004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.062004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051003s ]
+[ error ] [8]未定义数组索引: user_id[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:22]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:22:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.100063s][吞吐率：0.91req/s] [内存消耗：5,180.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.085005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.047003s ]
+[ error ] [8]未定义变量: request[D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php:20]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.177067s][吞吐率：0.85req/s] [内存消耗：5,180.95kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.058003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.058003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.057004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051002s ]
+[ error ] [2]Missing argument 1 for app\admin\model\RescueInfo::getList(), called in D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php on line 20 and defined[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:16]
+
+---------------------------------------------------------------
+[ 2017-10-19T21:29:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.171067s][吞吐率：0.85req/s] [内存消耗：5,181.16kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.054003s ]
+[ error ] [8]未定义数组索引: map[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:20]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:00:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.city119.com/ [运行时间：2.212126s][吞吐率：0.45req/s] [内存消耗：5,197.56kb] [文件加载：65]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\index\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110006s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_record` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `ip` FROM `log_record` [ RunTime:0.056003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:01:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.153066s][吞吐率：0.87req/s] [内存消耗：5,126.12kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.city119.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.055004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.049003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:01:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.422081s][吞吐率：0.70req/s] [内存消耗：5,179.64kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.053004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051003s ]
+[ error ] [8]未定义数组索引: order[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:26]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:01:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.139065s][吞吐率：0.88req/s] [内存消耗：5,126.79kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.088005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.063004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.049003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:01:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.231071s][吞吐率：0.81req/s] [内存消耗：5,180.50kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.087005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.062004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.055003s ]
+[ error ] [8]未定义数组索引: order[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:26]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:03:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.198068s][吞吐率：0.83req/s] [内存消耗：5,126.79kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104006s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.118007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.049002s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:03:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.154066s][吞吐率：0.87req/s] [内存消耗：5,180.50kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.048003s ]
+[ error ] [8]未定义数组索引: order[D:\Software_Files\website\www.city119.com\app\admin\model\RescueInfo.php:26]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:06:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.126064s][吞吐率：0.89req/s] [内存消耗：5,126.79kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.091005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:06:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.400080s][吞吐率：0.71req/s] [内存消耗：5,126.04kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.062004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.051003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:07:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.158066s][吞吐率：0.86req/s] [内存消耗：5,126.79kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.079005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.052003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:07:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.449083s][吞吐率：0.69req/s] [内存消耗：5,126.04kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.088005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.059003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.053003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.698098s][吞吐率：0.59req/s] [内存消耗：5,125.94kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123007s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.069003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.150008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.105006s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.105006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.071004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.065003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.120007s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.074005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.058003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:08:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.836105s][吞吐率：0.54req/s] [内存消耗：5,125.43kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.189011s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.071004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.057004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.064004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.075004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.057004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.081005s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.106006s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.082004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.066003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.083005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.074004s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.053003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:30:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.208069s][吞吐率：0.83req/s] [内存消耗：5,429.39kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.054004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.059003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.049003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T22:30:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.441083s][吞吐率：0.69req/s] [内存消耗：5,125.43kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.073005s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.051002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.054004s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.052003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T23:01:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.240071s][吞吐率：0.81req/s] [内存消耗：5,126.03kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.084005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.062003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T23:01:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.278073s][吞吐率：0.78req/s] [内存消耗：5,125.43kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.048003s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T23:05:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/index
+[ log ] www.city119.com/admin/rescue/index [运行时间：1.144065s][吞吐率：0.87req/s] [内存消耗：5,428.98kb] [文件加载：66]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->index[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ VIEW ] D:\Software_Files\website\www.city119.com\public/../app/admin\view\rescue\index.html [ array (
+  0 => 'set_lang',
+  1 => 'user',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.098005s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.057004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.046002s ]
+
+---------------------------------------------------------------
+[ 2017-10-19T23:06:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/rescue/getlist?offset=0&limit=10
+[ log ] www.city119.com/admin/rescue/getlist?offset=0&limit=10 [运行时间：1.288073s][吞吐率：0.78req/s] [内存消耗：5,125.43kb] [文件加载：63]
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rescue',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.city119.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.city119.com/admin/rescue/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=p4mrtsmjsls7ngsc9v7aqgaqa2; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'limit' => '10',
+)
+[ info ] [ LANG ] D:\Software_Files\website\www.city119.com\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Rescue->getList[ D:\Software_Files\website\www.city119.com\app\admin\controller\Rescue.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072004s ] mysql:dbname=city119;host=city119.anybind.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/index/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_access` [ RunTime:0.048002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/policeman/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/rescue/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/system/index' LIMIT 1 [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/user/index' LIMIT 1 [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT `rule_id` FROM `auth_access` WHERE  `role_id` = 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT `rule_val` FROM `auth_rule` WHERE  `id` IN (2) [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/role/index' LIMIT 1 [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` WHERE  `rule_val` = 'admin/authrule/index' LIMIT 1 [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rescue_info` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rescue_info` LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `rescue_info` LIMIT 0,10 [ RunTime:0.048002s ]
+
+---------------------------------------------------------------

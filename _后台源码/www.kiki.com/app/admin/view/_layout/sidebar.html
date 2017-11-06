@@ -1,0 +1,34 @@
+<div class="sidebar-collapse">
+    <ul class="nav metismenu" id="side-menu">
+    	<li class="nav-header"></li>
+    {volist name="$menus" id="vo"}
+    	{empty name="$vo['menu']"}
+        <li>
+            <a href="{:url('admin/'.$key.'/index',isset($vo[2])?$vo[2]:null)}">
+            	<i class="fa {$vo[0]}"></i> 
+            	<span class="nav-label">{:lang($vo[1])}</span>
+            </a>
+        </li>
+        {else /}
+        <li>
+            <a href="#">
+            	<i class="fa {$vo[0]}"></i>
+            	<span class="nav-label">{:lang($vo[1])}</span>
+            	<span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level collapse">
+            	{volist name="$vo['menu']" id="sub"}
+                	<li class=""><a href="{:url('admin/'.$key.'/index')}">
+                		<i class="fa {$sub[0]}"></i> 
+                		{:lang($sub[1])}
+                	</a></li>
+                {/volist}
+            </ul>
+        </li>
+        {/empty}
+    {/volist}
+    
+        <!-- 二级菜单 -->
+        
+    </ul>
+</div>
