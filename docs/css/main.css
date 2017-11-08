@@ -1668,8 +1668,8 @@ ul.social_icons li  a i{
 
 .pricing-area h1 {
   font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 0;
+  font-size: 24px;
 }
 
 .pricing-area span {
@@ -1741,7 +1741,7 @@ ul.social_icons li  a i{
 
 .pricing-area .heading-three,
 .pricing-area .price-three .plan-action .btn-primary {
-  background: #f39c12;
+  background: #f5a319;
 }
 
 .pricing-area .heading-four, 
@@ -1825,10 +1825,10 @@ ul.social_icons li  a i{
 
 .pricing-area .plan-action .btn-primary {
   position: relative;
-  padding:5px 20px;
-  color: #fff
-;
-  margin-top: 5px;
+  padding: 5px 40px;
+  color: #fff;
+  margin-top: -6px;
+  font-size: 23px;
 }
 
 .pricing-area .plan-action .btn-primary:before {
