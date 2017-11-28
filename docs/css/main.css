@@ -115,7 +115,7 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 140px 0 70px;
 }
 
 .center {
@@ -270,6 +270,10 @@ input.search-form:hover {
   background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  top: 0;
 }
 
  .navbar-nav{
@@ -2506,12 +2510,28 @@ shortcodes page css
 }
 
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  /* padding-bottom: 50px; */
+  background-color: #151515 !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft Yahei", "Wenquanyi Micro Hei", sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #fff;
-  background: #2e2e2e;
+  font-size: 14px;
+  line-height: 24px;
 }
-
+#footer .center h2 {
+  font-size: 20px;
+  margin-top: 50px;
+  color: #fff;
+  margin: 35px 0px 0px;
+}
+.ercode-modal .modal-dialog{
+  width:290px;
+  text-align: center;
+}
+.ercode-modal .modal-dialog img{
+  width:280;
+}
 #footer a {
   color: #fff;
 }
