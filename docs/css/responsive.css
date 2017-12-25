@@ -11,7 +11,9 @@
     margin-left: -10px;
     margin-right: -10px;
   }
-
+  .recent-work-wrap img{
+    height: 200px;
+   }
   
 
 }
@@ -38,7 +40,9 @@
   .recent-work-wrap .recent-work-inner h3 a {
     font-size: 20px;
   }
-
+  .recent-work-wrap img{
+    height: 168px;
+   }
   .recent-work-wrap .overlay{
     padding: 15px;
   }
@@ -138,7 +142,9 @@
   .services-wrap {
     padding: 40px 0 40px 30px;
   }
-
+  .recent-work-wrap img{
+    height: 168px;
+   }
   .recent-work-wrap .overlay{
    padding: 15px;
   }

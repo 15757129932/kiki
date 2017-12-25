@@ -590,7 +590,23 @@ input.search-form:hover {
   -webkit-box-shadow: inset 0 0 0 5px #b7d22d;
   border: 3px solid #b7d22d;
 }
-
+.feature-wrap img{
+  font-size: 48px;
+  height: 110px;
+  width: 110px;
+  margin: 3px;
+  border-radius: 100%;
+  line-height: 110px;
+  text-align:center;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  float: left;
+  margin-right: 25px;
+}
 #recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
 }
@@ -607,6 +623,7 @@ input.search-form:hover {
 
 .recent-work-wrap img{
   width: 100%;
+  object-fit: cover;
 }
 
 .recent-work-wrap .recent-work-inner{
@@ -2142,7 +2159,9 @@ ul.faq li > div h3 {
   margin-top: 0;
   font-size: 30px;
 }
-
+.blog .blog-item .blog-content p {
+  text-indent: 2em;
+}
 .readmore{
   margin-top: 0;
 }
@@ -2533,7 +2552,7 @@ shortcodes page css
   text-align: center;
 }
 .ercode-modal .modal-dialog img{
-  width:280;
+  width:280px;
 }
 #footer a {
   color: #fff;
