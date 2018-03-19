@@ -1,0 +1,31 @@
+{extend name="public/base" /}
+
+{block name="title"}
+<title>{$archive.title} - {:confv('title')}</title>
+<meta name="keywords" content="{$archive.keywords}">
+<meta name="description" content="{$archive.description}">
+{/block}
+
+{block name="pjax_container"}
+
+<section id="blog" class="container">
+    <!--        <div class="center">
+                <h2>Blogs</h2>
+                <p class="lead">{$archive.title}</p>
+            </div>-->
+    <div class="center">
+        <h2>{$archive.title}</h2>
+    </div>
+    <div class="blog">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="blog-item">
+                     {$archive.addondata.content}
+                </div><!--/.blog-item-->     
+            </div><!--/.col-md-8-->
+        </div><!--/.row-->
+
+    </div><!--/.blog-->
+
+</section><!--/#blog-->
+{/block}

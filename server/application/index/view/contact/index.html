@@ -1,0 +1,85 @@
+{extend name="public/base" /}
+
+{block name="title"}
+<title>{:confv('title')}</title>
+<meta name="keywords" content="{:confv('keywords')}">
+<meta name="description" content="{:confv('description')}">
+{/block}
+
+{block name="pjax_container"}
+
+    <section id="contact-info">
+
+        <div class="gmap-area">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+    <!--/gmap_area -->
+
+    <section id="contact-page">
+        <div class="container">
+            <div class="center">
+                <h2>联系我们</h2>
+                <p class="lead">让女性更有尊严，更加品质的活在阳光和鲜花之中。</p>
+                <p class="lead">当你在犹豫的时候，这个世界很小；当你做出行动的时候，这个世界就很大。</p>
+            </div>
+            <div class="row contact-wrap">
+<!--                <div class="status alert alert-success" style="display: none"></div>-->
+                <form action="{:url('Guestbook/create')}" method="post"  class="contact-form" name="contact-form"  >
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="您的姓名">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" name="tel" class="form-control" placeholder="电话">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="邮箱">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="company" class="form-control" placeholder="公司名称">
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="form-group">
+                            <textarea id="message" name="content" required class="form-control" rows="8" placeholder="您的问题"></textarea>
+                        </div>
+                        <div class="form-group center">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" >提交</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#contact-page-->
+
+
+    <!-- Small modal -->
+
+    <div class="modal fade bs-example-modal-sm ercode-modal wechat-1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <img src="__static__/global/obm/images/wechat_0.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-sm ercode-modal wechat-2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <img src="__static__/global/obm/images/wechat_1.png" alt="">
+            </div>
+        </div>
+    </div>
+{/block}

@@ -1,0 +1,22 @@
+{if condition=" $box_is_pjax != 1 "}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {/if}
+        {block name="title"}{/block}
+        {block name="load_top"}{include file="public/load_top" /}{/block}
+    </head>
+    <body class="homepage">
+
+
+        {block name="head"}{include file="public/head" /}{/block}
+        {block name="pjax_container"}{/block}
+        {block name="foot"}{include file="public/foot" /}{/block}
+
+        {block name="load_bottom"}{include file="public/load_bottom" /}{/block}
+        {if condition=" $box_is_pjax != 1 "}
+    </body>
+</html>
+{/if}
