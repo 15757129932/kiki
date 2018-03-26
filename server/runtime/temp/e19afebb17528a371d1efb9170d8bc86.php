@@ -1,0 +1,399 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:71:"/var/www/html/obm/public/../application/index/view/portfolio/index.html";i:1520575995;s:67:"/var/www/html/obm/public/../application/index/view/public/base.html";i:1520575995;s:71:"/var/www/html/obm/public/../application/index/view/public/load_top.html";i:1520575995;s:67:"/var/www/html/obm/public/../application/index/view/public/head.html";i:1520576334;s:67:"/var/www/html/obm/public/../application/index/view/public/foot.html";i:1520575995;s:74:"/var/www/html/obm/public/../application/index/view/public/load_bottom.html";i:1520575995;}*/ ?>
+<?php if($box_is_pjax != 1): ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php endif; ?>
+        
+<title><?php echo confv('title'); ?></title>
+<meta name="keywords" content="<?php echo confv('keywords'); ?>">
+<meta name="description" content="<?php echo confv('description'); ?>">
+
+        <?php if($box_is_pjax != 1): ?>
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/main.css" />
+<link rel="stylesheet" type="text/css" href="__static__/global/obm/css/responsive.css" />
+
+
+
+
+
+
+<script type="text/javascript" src="__static__/global/obm/js/jquery.min.js"></script>
+
+<?php endif; ?>
+    </head>
+    <body class="homepage">
+
+
+        <?php if($box_is_pjax != 1): ?>
+    <header id="header">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="__static__/global/obm/images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="<?php echo url('index/index'); ?>#ourService">我们的服务</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('index/index'); ?>#feature">我们的团队</a>
+                        </li>
+                        <li class="dropdown">  
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">教育培训 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo url('portfolio/index'); ?>?show=tab1">生育家庭课堂</a></li>
+                                <li><a href="<?php echo url('portfolio/index'); ?>?show=tab2">OBMCC</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="<?php echo url('contact/index'); ?>">联系我们</a>
+                        </li>                     
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+<?php endif; ?>
+
+        
+
+    <section id="portfolio" class="container">
+        <ul class="portfolio-filter text-center" role="tablist">
+            <li role="presentation" class="active">
+                <a class="btn btn-default tab1" href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">生育家庭课堂 </a>
+            </li>
+            <li role="presentation">
+                <a class="btn btn-default tab2" href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">OBMCC</a>
+            </li>
+        </ul>
+        <div class="blog">
+            <div class="row">
+                <div class="tab-content">
+
+                    <div role="tabpanel" class="tab-pane active" id="tab1">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="blog-item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img class=" img-responsive img-blog" src="__static__/global/obm/images/blog/blog1.jpg" width="100%" alt="" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 blog-content">
+                                        <p>女性一生中面临能量层级最高的挑战，往往是从怀孕生子开始的。它不仅意味着女性身份的增设，还代表着一种近乎哲学家式，需要高度智慧的生存状态。</p>
+                                        <p>但分娩与母乳哺育的道路不是人人一帆风顺。孕育生命的喜悦伴随的是分娩的未知，意想不到的分娩经历也许温馨也许痛苦将会一直回荡在生命里，孕育与母乳喂养也是人生，我们希望它是一段快乐的人生时光。</p>
+                                        <p>OBM国际生育教育顾问就在这里，提供生育教育的最新研究成果和资讯，帮助生育家庭做出充分的知情选择。我们就在这里，提供个性化的课程、分娩中的陪伴与支持，产后母乳喂养的支持与帮助。</p>
+                                        <p>愿每一位女性在这段人生中，获得前进的力量留下美好的记忆。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.blog-item-->
+
+                        <div class="pricing-area text-center">
+                            <div class="row">
+                                <div class="col-sm-4 plan price-one wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第一节</h1>
+                                            <!-- <span>$6/Month</span> -->
+                                        </li>
+                                        <li>了解胎教</li>
+                                        <li>爸爸的参与孕育全程的意义</li>
+                                        <li>认识自然分娩</li>
+                                        <li>1孕期紧急就医情况</li>
+                                        <li>24/7 Support</li>
+                                    <!-- <li class="plan-action">
+                                        <a href="" class="btn btn-primary">Sign up</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-4 plan price-two wow fadeInDown">
+                                <ul>
+                                    <li class="heading-four">
+                                        <h1>第二节</h1>
+                                        <!-- <span>$12/Month</span> -->
+                                    </li>
+                                    <li>了解宫缩的意义</li>
+                                    <li>了解宫缩的规律</li>
+                                    <li>分娩与环境的关系</li>
+                                    <li>分娩中的激素</li>
+                                    <li>模拟游戏</li>
+                                    <!-- <li class="plan-action">
+                                        <a href="" class="btn btn-primary">Sign up</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-4 plan price-three wow fadeInDown">
+                                <ul>
+                                    <li class="heading-four">
+                                        <h1>第三节</h1>
+                                        <!-- <span>$24/Month</span> -->
+                                    </li>
+                                    <li>分娩的启动</li>
+                                    <li>分娩中的宝宝</li>
+                                    <li>呼吸法的讲解</li>
+                                    <li>练习放松</li>
+                                    <li>&nbsp;</li>
+                                    <!-- <li class="plan-action">
+                                        <a href="" class="btn btn-primary">Sign up</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 plan price-one wow fadeInDown">
+                                <ul>
+                                    <li class="heading-four">
+                                        <h1>第四节</h1>
+                                        <!-- <span>$6/Month</span> -->
+                                    </li>
+                                    <li>复习分娩激素</li>
+                                    <li>分娩中肌肉、骨骼的运动</li>
+                                    <li>产程中的自由体位</li>
+                                    <li>分娩的6大重要因素</li>
+                                    <li>&nbsp;</li>
+                                    <!-- <li class="plan-action">
+                                            <a href="" class="btn btn-primary">Sign up</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 plan price-two wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第五节</h1>
+                                            <!-- <span>$12/Month</span> -->
+                                        </li>
+                                        <li>分娩产程（四个阶段）</li>
+                                        <li>详细讲解第一产程、第二产程</li>
+                                        <li>闸门理论</li>
+                                        <li>物理放松的方法</li>
+                                        <li>晚断脐</li>
+                                    <!-- <li class="plan-action">
+                                            <a href="" class="btn btn-primary">Sign up</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 plan price-three wow fadeInDown">
+                                    <ul>   
+                                        <li class="heading-four">
+                                            <h1>第六节</h1>
+                                            <!-- <span>$24/Month</span> -->
+                                        </li>
+                                        <li>分娩的知情决定</li>
+                                        <li>分娩中医疗措施讲解</li>
+                                        <li>案例分析、讲解</li>
+                                        <li>分娩计划书</li>
+                                        <li>&nbsp;</li>
+                                    <!-- <li class="plan-action">
+                                            <a href="" class="btn btn-primary">Sign up</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted" >注：课程中会有视频、音乐、图片、游戏等形式出现协助大家更直观的感受和学习，以上内容仅供参考，实际内容会随课程进展做出微调，请以实际内容为准。</p>
+                        <!--/pricing-area-->
+                        <div class="pricing-area text-center">
+                            <div class="row">
+
+                                <div class="col-sm-12 plan price-three wow fadeInDown">
+                                    <ul>
+                                        <li class="plan-action" style="background: #fff;">
+                                            <a href="javascript:;" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm1">免费报名</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--/pricing-area-->
+
+                    </div>
+                    <!--/.col-md-8-->
+
+                    <div role="tabpanel" class="tab-pane" id="tab2">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="blog-item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img class=" img-responsive img-blog" src="__static__/global/obm/images/blog/blog2.jpg" width="100%" alt="" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 blog-content">
+                                        <p>OBM Care的使命是通过循证的教育和支持，倡导安全健康的怀孕/分娩和早期育儿。我们的愿景是“让更多的人第一时间了解最新的循证信息，从而做出正确的选择”。</p>
+                                        <p>构成组织的基础是OBM健康孕产实践，和取自世界卫生组织的经验，倡导保护和支持自然安全和健康的孕育</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-area text-center">
+                            <div class="row">
+                                <div class="col-sm-4 plan price-one wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第一部分</h1>
+                                        </li>
+                                        <li>服务产品设计</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 plan price-two wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第二部分</h1>
+                                        </li>
+                                        <li>Personal Butler Service</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 plan price-three wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第三部分</h1>
+                                        </li>
+                                        <li>管理与运营</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 plan price-one wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第四部分</h1>
+                                        </li>
+                                        <li>模拟实习与实践</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 plan price-two wow fadeInDown">
+                                    <ul>
+                                        <li class="heading-four">
+                                            <h1>第五部分</h1>
+                                        </li>
+                                        <li>技术培训</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text-muted" >注：课程中会有视频、音乐、图片、游戏等形式出现协助大家更直观的感受和学习，以上内容仅供参考，实际内容会随课程进展做出微调，请以实际内容为准。</p>
+                        <!--/pricing-area-->
+                        <div class="pricing-area text-center">
+                            <div class="row">
+
+                                <div class="col-sm-12 plan price-three wow fadeInDown">
+                                    <ul>
+                                        <li class="plan-action" style="background: #fff;">
+                                            <a href="javascript:;" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm1">报名</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Small modal -->
+                            </div>
+                        </div>
+                        <!--/pricing-area-->
+                    </div>
+
+                </div>
+                <!--/.row-->
+
+            </div>
+            <!--/.blog-->
+        </div>
+
+    </section>
+    <!-- Small modal -->
+
+    <div class="modal fade bs-example-modal-sm1 ercode-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <img src="__static__/global/obm/images/ercode.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-sm ercode-modal wechat-1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <img src="__static__/global/obm/images/wechat_0.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-sm ercode-modal wechat-2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <img src="__static__/global/obm/images/wechat_1.png" alt="">
+            </div>
+        </div>
+    </div>
+   
+   <script>
+        $(function() {
+            var hash = document.location.search.split("=")[1];
+           // var hash = "<?php echo $tab; ?>";            
+            $('.portfolio-filter a[href="#'+hash+'"]').tab('show');
+            $('.portfolio-filter .'+hash).addClass("active");
+        })
+    </script>
+    
+
+            <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <div class="row">
+                        <div class="center wow fadeInDown footer-center text-center animated" style="visibility: visible; animation-name: fadeInDown;">
+                            <h2>联系我们</h2>
+                            <br />
+                            <p>当你在犹豫的时候，这个世界很小；当你做出行动的时候，这个世界就很大。</p>
+                            <p>邮箱 | info@theobmcare.com</p>
+                            <p>电话 | +86 0571 85265535</p>
+    
+                            <ul class="social-icons">
+                                <li>
+                                    <a data-toggle="modal" data-target=".wechat-1" href="#">
+                                        官方微信号 | <img src="__static__/global/obm/images/wechat.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-toggle="modal" data-target=".wechat-2" href="#">
+                                        微信公众号 | <img src="__static__/global/obm/images/wechat.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+        <?php if($box_is_pjax != 1): ?>
+<script type="text/javascript" src="__static__/global/obm/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__static__/global/obm/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="__static__/global/obm/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="__static__/global/obm/js/main.js"></script>
+<script type="text/javascript" src="__static__/global/obm/js/wow.min.js"></script>
+<?php endif; if($box_is_pjax != 1): ?>
+    </body>
+</html>
+<?php endif; ?>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:116:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/detail/article_article.html";i:1520575549;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/base.html";i:1520405699;s:109:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/load_top.html";i:1520495696;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/head.html";i:1520576279;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/foot.html";i:1520407939;s:112:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/load_bottom.html";i:1520495692;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:116:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/detail/article_article.html";i:1520575549;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/base.html";i:1520405699;s:109:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/load_top.html";i:1520495696;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/head.html";i:1520495731;s:105:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/foot.html";i:1520407939;s:112:"/home/doublecong/dev_dc/gitcode/kiki/Tp5-TuFanInc-Admin/public/../application/index/view/public/load_bottom.html";i:1520495692;}*/ ?>
 <?php if($box_is_pjax != 1): ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"><img src="__static__/global/obm/images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="__static__/global/obm/images/logo.png" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">

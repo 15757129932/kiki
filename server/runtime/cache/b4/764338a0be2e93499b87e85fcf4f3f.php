@@ -1,0 +1,3 @@
+<?php
+//000000000000a:11:{s:12:"image_format";s:20:"jpg,gif,jpeg,png,bmp";s:10:"image_size";s:7:"5242880";s:11:"image_print";s:28:"/static/global/face/logo.png";s:11:"file_format";s:42:"doc,docx,xls,xlsx,ppt,htm,html,txt,zip,rar";s:12:"flash_format";s:7:"swf,flv";s:12:"media_format";s:47:"swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb";s:11:"upload_path";s:7:"uploads";s:7:"isprint";s:1:"1";s:14:"print_position";s:1:"9";s:10:"print_blur";s:2:"70";s:9:"image_url";s:0:"";}
+?>

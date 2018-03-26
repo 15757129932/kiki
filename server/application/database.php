@@ -8,18 +8,18 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
+//mysql -uobm_user -p -hrm-bp1kb28aid7r5jd69o.mysql.rds.aliyuncs.com
 return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => 'rm-bp1kb28aid7r5jd69o.mysql.rds.aliyuncs.com',
     // 数据库名
     'database'        => 'obm',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'obm_user',
     // 密码
-    'password'        => '1qaz2wsx',
+    'password'        => 'Jw518008',
     // 端口
     'hostport'        => '',
     // 连接dsn
