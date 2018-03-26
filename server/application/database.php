@@ -13,13 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => 'rm-bp1kb28aid7r5jd69o.mysql.rds.aliyuncs.com',
+    'hostname'        => '',
     // 数据库名
-    'database'        => 'obm',
+    'database'        => '',
     // 用户名
-    'username'        => 'obm_user',
+    'username'        => '',
     // 密码
-    'password'        => 'Jw518008',
+    'password'        => '',
     // 端口
     'hostport'        => '',
     // 连接dsn
